@@ -1,6 +1,5 @@
 node_modules
 platforms
-app/App_Resources
 app/*.js
 app/*.js.map
 app/**/*/*.js

@@ -1,0 +1,9 @@
+<StackLayout>
+    <ListView [items]="contacts" row="1" class="small-spacing">
+        <template let-item="item">
+            <GridLayout columns="*, auto">
+                <Label col="0" [text]="item.name" (tap)="goToDetail(item)"></Label>
+            </GridLayout>
+        </template>
+    </ListView>
+</StackLayout>
